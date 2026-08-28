@@ -130,6 +130,9 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Screenshots
-*(Insert screenshot of dashboard here)*
 
-*(Insert screenshot of visual node-link graph here)*
+**Blast Radius Analysis (Downstream Impact)**
+![Blast Radius Dashboard](public/assests/Blast_Radius.png)
+
+**Root Cause Analysis (Upstream Dependencies)**
+![Root Cause Dashboard](public/assests/Root_Cause.png)
