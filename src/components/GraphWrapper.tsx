@@ -17,7 +17,7 @@ const ForceGraph2D = dynamic(() => import('react-force-graph-2d'), {
 
 export default function GraphWrapper({ data }: { data: any }) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const fgRef = useRef<any>();
+  const fgRef = useRef<any>(null);
   const [dimensions, setDimensions] = useState({ width: 0, height: 500 });
 
   useEffect(() => {
